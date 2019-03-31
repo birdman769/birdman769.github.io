@@ -177,7 +177,24 @@ market. My VST will be a simple monophonic synthesiser with a basic GUI. (Graphi
 As the Synth will be monophonic, it will be running one simulated Oscillator. This will generate a frequency that corresponds with the MIDI note that is fed into the VST.
  This is a core function of a synth. The Oscillator will have several different Waveform options. Waveforms are what give a synth its distinctive sound (such as saw or square waves).
  If possible The synth may be made Duo or polyphonic, giving it the capacity to play multiple notes and chords. However this is unlikely to happen for my first synth VST given the potential difficulties. 
-<br><br>  </p>
+<br><br>
+
+The VST will have an ADSR. Otherwise known as Attack, Decay, Sustain and Release. This is known as the four traditional stages of an Envelope. These controls are used to manipulate the envelope of the waveform. 
+These controls are the staple of any synth. There is also a more basic AR envelope but is often considered too basic. I aim to implement a full ADSR envelope control.  <br><br>
+
+One feature I would really like to include in my VST is an Arpeggiator. This is a feature that would allow the user to hold or input a single note and have the VST output a rhythm and/or melody with ease.
+ The arpeggiator generates a series of controlled or random notes into the signal processing and can be useful for experimentation or for speeding up the production process. <br><br>
+
+I would also like to include an on-board audio modifier or effects section.  This would be a section of signal processors that takes the generated synth sound and applies ‘creative effects’ to the audio.
+ I would like to include an overdrive (distortion), modulators (flange and chorus) and spatial effects (Reverb and delay). These are more purpose built plugins for this but it’s standard to include these in your synth anyways.<br><br>
+ 
+A drive button would also be included. This would be a button that applies signal drive and harmonic excitement to the signal coming from the oscillator. It would be used for signal waveforms that are weak sounding. <br><br>
+
+One of the most important parts of a VST is the GUI. My GUI would be minimalistic for the sake of easy user use and the inclusion of only core synth elements. My GUI would be based on a typical real life analogue synth layout.
+ This is so users who are familiar with hardware (or other VSTs) find it easy to pick up using my VST. <br><br>
+
+
+  </p>
 
 	<p style="text-align:center;"><b>Thanks for coming!</b><img src="birdman769.github.io/jesusGIF.gif" alt="jesus dance" align="middle"><b>Have a nice day!</b></p>
 
